@@ -1,0 +1,28 @@
+@mixin flex_center($direction) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: $direction;
+}
+
+@mixin flex_center_auto($direction) {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	flex-direction: $direction;
+}
+@mixin p_text {
+	color: #616161;
+	font-family: "Roboto Flex", sans-serif;
+	line-height: 1.4;
+
+	font-size: 24px;
+	font-weight: 400;
+}
+
+@mixin h2_style {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
